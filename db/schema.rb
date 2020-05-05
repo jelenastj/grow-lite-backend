@@ -38,6 +38,7 @@ ActiveRecord::Schema.define(version: 2020_05_05_203026) do
     t.string "sun_exposure"
     t.string "spread"
     t.string "season"
+    t.string "img_url"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
