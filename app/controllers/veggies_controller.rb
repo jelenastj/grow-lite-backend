@@ -1,5 +1,6 @@
 class VeggiesController < ApplicationController
     skip_before_action :verify_authenticity_token
+
     before_action :find_veggie, only: [:show, :update]
     
     def index
