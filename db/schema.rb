@@ -16,6 +16,7 @@ ActiveRecord::Schema.define(version: 2020_05_05_203026) do
   enable_extension "plpgsql"
 
   create_table "comments", force: :cascade do |t|
+    t.string "username"
     t.bigint "user_id", null: false
     t.bigint "veggie_id", null: false
     t.string "content"
@@ -39,6 +40,7 @@ ActiveRecord::Schema.define(version: 2020_05_05_203026) do
     t.string "spread"
     t.string "season"
     t.string "img_url"
+    t.text "instructions"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end

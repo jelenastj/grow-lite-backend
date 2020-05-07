@@ -8,6 +8,7 @@ class CreateVeggies < ActiveRecord::Migration[6.0]
       t.string :spread
       t.string :season
       t.string :img_url
+      t.text   :instructions
 
       t.timestamps
     end
