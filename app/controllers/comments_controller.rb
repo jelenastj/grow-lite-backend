@@ -1,5 +1,4 @@
 class CommentsController < ApplicationController
-    skip_before_action :verify_authenticity_token
 
     def destroy
         comment = Comment.find(params[:id])
