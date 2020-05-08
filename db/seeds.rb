@@ -34,7 +34,7 @@ Veggie.create([{
         You can combine fast-maturing varieties with special season-stretching techniques to grow an early crop, but wait until the last frost has passed to plant main-season tomatoes.
         Cover the ground with 2 to 4 inches of mulch to minimize weeds and help keep the soil evenly moist. Straw and shredded leaves make great mulches for tomatoes.
         Water regularly, aiming for at least an inch of moisture per week (through rain or watering), more in the summertime. Feel the soil; if the top inch is dry, it’s time to water. ",
-        img_url: "https://c4.wallpaperflare.com/wallpaper/96/93/203/board-close-up-cooking-delicious-wallpaper-preview.jpg"
+        img_url: "https://c1.wallpaperflare.com/preview/915/8/864/tomato-fruits-fresh-sweet.jpg"
     },
     {
         name: "Cucumbers",
